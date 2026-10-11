@@ -1,0 +1,339 @@
+{
+  "meta": {
+    "lastVerified": "2026-10-03",
+    "summary": "Physical and operating parameters used by the simulator. Every value is tagged verified, reported or assumed. Assumed values are typical of elevated metro systems and exist so the simulation can run; replace them when CMRL publishes figures.",
+    "sources": {
+      "alstom": "Alstom press releases (2022–2025) — Metropolis driverless trainsets for Chennai Metro Phase II, built at Sri City",
+      "metrorailguy-stock": "The Metro Rail Guy — Phase II trainset: 3 coaches, 67.8 m, ~1000 passengers (crush), 90 km/h design / 80 km/h operating, DMC+TC+DMC, GoA4",
+      "speed-may-2026": "News coverage (May 2026) of the revised CMRS approval: Porur–Vadapalani maximum speed raised from 25 km/h to 40 km/h",
+      "jagran-double-decker": "Daily Jagran / DT Next — two-tier stretch on Arcot Road, 3.75 km between Alapakkam and Alwarthirunagar; Corridor 4 lower deck, Corridor 5 upper deck"
+    }
+  },
+  "alignment": {
+    "method": "Centripetal Catmull–Rom spline through station coordinates. Not a surveyed alignment: the real viaduct follows Trunk Road / Mount–Poonamallee Road and Arcot Road, which curve between stations.",
+    "status": "approximate",
+    "railLevelM": {
+      "value": 18,
+      "status": "assumed",
+      "note": "Raised from 12.5 m so the metro, its station concourses and steel portals clear road traffic on the MGR flyover at Porur Junction (flyover deck about 6.7 m, buses about 3.2 m on top)."
+    },
+    "trackCentresM": {
+      "value": 4.2,
+      "status": "assumed"
+    },
+    "gaugeMm": {
+      "value": 1435,
+      "status": "verified",
+      "note": "Chennai Metro uses standard gauge."
+    },
+    "pierSpacingM": {
+      "value": 30,
+      "status": "assumed"
+    },
+    "tailTrackM": {
+      "value": 260,
+      "status": "assumed",
+      "note": "Visual run-off beyond each terminus."
+    },
+    "driving": "left",
+    "drivingNote": "Trains are drawn on the left-hand track in their direction of travel; CMRL track allocation for Line 4 is not published."
+  },
+  "sections": [
+    {
+      "from": "poonamallee-bypass",
+      "to": "porur-junction",
+      "maxSpeedKmh": 80,
+      "status": "assumed",
+      "note": "No section speed restriction has been published; uses the trainset's 80 km/h operating speed (metrorailguy-stock)."
+    },
+    {
+      "from": "porur-junction",
+      "to": "vadapalani",
+      "maxSpeedKmh": 40,
+      "status": "reported",
+      "source": "speed-may-2026"
+    }
+  ],
+  "structures": {
+    "doubleDecker": {
+      "from": "alapakkam",
+      "to": "alwarthirunagar",
+      "lengthKm": 3.75,
+      "lowerDeck": "line-4",
+      "upperDeck": "line-5",
+      "upperDeckHeightAboveRailM": {
+        "value": 9.5,
+        "status": "assumed"
+      },
+      "status": "reported",
+      "source": "jagran-double-decker",
+      "line5West": {
+        "line": "line-5",
+        "lengthM": 1500,
+        "descent": {
+          "fromM": 60,
+          "toM": 560,
+          "status": "assumed"
+        },
+        "streetWidthM": 9,
+        "status": "osm",
+        "note": "Line 5 leaves the double-decker near Alapakkam and heads south along Mount–Poonamallee Road towards Mugalivakkam.",
+        "source": "Path: Line 5 track in OpenStreetMap (network.json), where it parts from Line 4. Descent to normal rail level assumed."
+      },
+      "line5East": {
+        "line": "line-5",
+        "lengthM": 1500,
+        "descent": {
+          "fromM": 80,
+          "toM": 520,
+          "status": "assumed"
+        },
+        "streetWidthM": 9,
+        "status": "osm",
+        "note": "Line 5 leaves the double-decker past Alwarthirunagar, just beyond Chandra Metro Mall, and heads north towards Virugambakkam.",
+        "source": "Path: Line 5 track in OpenStreetMap (network.json), where it parts from Line 4. Descent to normal rail level assumed."
+      }
+    },
+    "platform": {
+      "type": "side",
+      "lengthM": {
+        "value": 92,
+        "status": "assumed"
+      },
+      "widthM": {
+        "value": 4,
+        "status": "assumed"
+      },
+      "heightAboveRailM": {
+        "value": 1.1,
+        "status": "assumed"
+      }
+    },
+    "flyovers": [
+      {
+        "id": "mgr-flyover",
+        "name": "Bharat Ratna Puratchi Thalaivar M.G.R. Flyover",
+        "shortName": "MGR Flyover",
+        "nameTa": "பாரத ரத்னா புரட்சித் தலைவர் எம்.ஜி.ஆர். மேம்பாலம்",
+        "nameTaVerified": false,
+        "lengthM": {
+          "value": 505,
+          "status": "verified"
+        },
+        "lanes": {
+          "value": 4,
+          "status": "verified"
+        },
+        "widthM": {
+          "value": 16.6,
+          "status": "assumed",
+          "note": "Two 3.85 m lanes each way between crash barriers."
+        },
+        "crestDeckM": {
+          "value": 6.7,
+          "status": "assumed",
+          "note": "About 5.5 m clearance for the junction road beneath plus a 1.2 m deck."
+        },
+        "rampM": {
+          "value": 195,
+          "status": "assumed",
+          "note": "Straight grade (about 4.3 %) with 40 m rounded ends."
+        },
+        "opened": "2017-06-25",
+        "source": "india.com / PTI — 'TN Chief Minister opens Porur flyover' (505 m, Rs 54 crore, 25 June 2017); Wikipedia — Flyovers in Chennai (0.5 km, 4 lanes); DT Next — metro steel portal beams near the flyover. Position along Mount–Poonamallee Road: centred on the 'MGR FLyover' ways in OpenStreetMap; the published 505 m length is kept.",
+        "road": "mount-poonamallee-road",
+        "fromJunctionM": -200,
+        "toJunctionM": 305
+      }
+    ],
+    "sideRoads": [
+      {
+        "id": "mount-poonamallee-road",
+        "name": "Mount–Poonamallee Road",
+        "atStation": "porur-junction",
+        "westM": 260,
+        "widthM": 30,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            30,
+            4
+          ],
+          [
+            100,
+            40
+          ],
+          [
+            200,
+            85
+          ],
+          [
+            300,
+            132
+          ],
+          [
+            450,
+            200
+          ],
+          [
+            600,
+            270
+          ],
+          [
+            800,
+            363
+          ],
+          [
+            1000,
+            456
+          ]
+        ],
+        "status": "osm",
+        "source": "Path: OpenStreetMap (SH55 Mount–Poonamallee–Avadi Road and the MGR Flyover), walked east from Porur Junction. At the junction the metro turns north-east onto Arcot Road while Mount–Poonamallee Road (and the MGR flyover) continues east.",
+        "osm": {
+          "names": [
+            "Mount - Poonamallee - Avadi Road",
+            "Mount Poonamallee Highway",
+            "MGR FLyover"
+          ],
+          "heading": [
+            1,
+            0
+          ],
+          "lengthM": 2500,
+          "features": {
+            "mgr-flyover": "MGR FLyover"
+          }
+        }
+      },
+      {
+        "id": "kundrathur-road",
+        "name": "Kundrathur Main Road",
+        "atStation": "porur-junction",
+        "westM": 0,
+        "widthM": 20,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            -60,
+            125
+          ],
+          [
+            -130,
+            270
+          ],
+          [
+            -196,
+            405
+          ]
+        ],
+        "status": "osm",
+        "source": "Path: OpenStreetMap (SH113 Kodambakkam–Sriperumbudur Road, called Kundrathur Main Road locally), walked south-west from Porur Junction.",
+        "osm": {
+          "names": [
+            "Kodambakkam – Sriperumbudur Road"
+          ],
+          "heading": [
+            -0.7,
+            0.7
+          ],
+          "lengthM": 1500
+        }
+      }
+    ],
+    "footbridges": [
+      {
+        "id": "poonamallee-bypass-fob",
+        "station": "poonamallee-bypass",
+        "alongM": -35,
+        "side": "south",
+        "fromLateralM": 17,
+        "toLateralM": 88,
+        "floorM": 10.5,
+        "widthM": 4.5,
+        "supportsAtM": [
+          44
+        ],
+        "tower": {
+          "sizeM": 8,
+          "heightM": 14
+        },
+        "status": "approximate",
+        "note": "Covered steel truss footbridge from the station concourse across NH48 (Chennai–Bengaluru Highway) to a stair/lift tower on the south side. Span, position and support traced from satellite and street photos supplied by the project owner; dimensions estimated from them.",
+        "source": "Project owner: satellite views and street photos of Poonamallee Bypass metro (2026-10-05)"
+      }
+    ]
+  },
+  "rollingStock": {
+    "manufacturer": "Alstom",
+    "family": "Metropolis",
+    "cars": 3,
+    "formation": [
+      "DMC",
+      "TC",
+      "DMC"
+    ],
+    "lengthM": 67.8,
+    "widthM": {
+      "value": 2.9,
+      "status": "assumed"
+    },
+    "heightM": {
+      "value": 3.9,
+      "status": "assumed"
+    },
+    "doorsPerSide": {
+      "value": 4,
+      "status": "assumed"
+    },
+    "capacityCrush": 1000,
+    "designSpeedKmh": 90,
+    "operatingSpeedKmh": 80,
+    "automation": "GoA4 (driverless capable)",
+    "livery": {
+      "status": "stylised",
+      "note": "Blue cab and cantrail band, stainless sides with a blue stripe under the windows, after photos of CMRL Alstom Metropolis trainsets. Stylised, not the official livery drawing."
+    },
+    "source": "metrorailguy-stock",
+    "womensCoach": {
+      "coach": "first in the direction of travel",
+      "status": "assumed",
+      "note": "Chennai Metro reserves women-only coaches (first-class coaches were converted to women's coaches from 23 Nov 2020), and passenger guides describe the first coach in the direction of travel as reserved for women. Not yet published for the 3-car Line 4 trains, so applied here as an assumption.",
+      "sources": [
+        "LiveChennai — 'More women's coaches in Chennai Metro trains' (Nov 2020): https://www.livechennai.com/detailnews.asp?newsid=56132",
+        "TrackMyMetro — Chennai Metro guide (first coach in the direction of travel reserved for women): https://trackmymetro.com/chennai-metro/"
+      ]
+    }
+  },
+  "operations": {
+    "status": "assumed",
+    "note": "CMRL has not published Line 4 dwell times or acceleration figures. These are typical values for modern metro trainsets.",
+    "accelerationMps2": 1,
+    "serviceBrakeMps2": 0.85,
+    "maxBrakeMps2": 1.1,
+    "jerkMps3": 0.75,
+    "dwellSeconds": 22,
+    "doorOpeningSeconds": 2.6,
+    "doorClosingSeconds": 3.6,
+    "settleBeforeDoorsSeconds": 1.4,
+    "originBoardingSeconds": 5,
+    "terminusAlightSeconds": 8
+  },
+  "neighbourhoods": [
+    {
+      "id": "virugambakkam",
+      "around": "chandra-metro-mall",
+      "halfLengthM": 320,
+      "north": "dense-low-rise",
+      "south": "apartment-blocks",
+      "status": "approximate",
+      "source": "Satellite view of Arcot Road, Virugambakkam, supplied by the project owner: packed 2–4 storey houses on the mall's side, 4–5 storey apartment blocks around a courtyard across the road."
+    }
+  ]
+}

@@ -1,0 +1,1764 @@
+{
+  "meta": {
+    "description": "Stations on the first Phase II stretch of Chennai Metro Line 4 (Yellow Line), listed west to east from Poonamallee Bypass to Vadapalani.",
+    "lastVerified": "2026-10-03",
+    "coordinateQuality": {
+      "station": "Coordinates of the metro station itself, from its Wikipedia article.",
+      "bus-stop": "Coordinates of the MTC bus stop of the same name (MTC GTFS feed via TellMyRoute). The station sits on the same road; treat as approximate (±150 m).",
+      "locality": "Coordinates of the locality (Wikipedia). The station sits on the main road through it; treat as approximate (±300 m).",
+      "interpolated": "No published coordinates. Placed on the straight line between Porur Junction and Vadapalani for visualisation only, spaced so Alapakkam–Alwarthirunagar spans the reported 3.75 km double-decker. Replace with surveyed data when available."
+    },
+    "tamilNames": "Standard Tamil spellings of the locality names, cross-checked against Tamil-language news coverage of the opening (Oneindia Tamil, ETV Bharat Tamil). CMRL has not yet published official station signage spellings, so nameTaVerified is false until it does. Phase II stations without a Tamil name in OpenStreetMap take the spelling from the Tamil Wikipedia Chennai Metro Phase II route diagram (Template:Phase II, Chennai Metro, read 2026-10-11), with abbreviations expanded; each station note says which source it used.",
+    "sources": {
+      "wiki-stations": "Wikipedia articles for Poonamallee Bypass, Mullaithottam, Thelliyaragaram, Porur Bypass, Porur Junction and Vadapalani metro stations",
+      "wiki-localities": "Wikipedia articles for Kattupakkam, Iyyapanthangal and Kumananchavadi",
+      "mtc-gtfs": "MTC bus stops 'Poonamallee' and 'Karayanchavadi' (TellMyRoute, Chennai MTC GTFS)",
+      "dtnext-cmrs": "DT Next — 'Poonamallee Bypass-Porur Metro services to begin soon' (CMRS authorises 14.6 km Poonamallee Bypass–Porur Junction–Vadapalani)",
+      "dtnext-fares": "DT Next — 'Poonamallee-Vadapalani Metro fares fixed at Rs 10-Rs 40 ahead of proposed October 11 inauguration' (Sep 2026)",
+      "nativeplanet-opening": "NativePlanet — 'Chennai Metro Phase-2: Poonamallee to Vadapalani Stretch Opens October 11'",
+      "jagran-double-decker": "Daily Jagran / DT Next — Arcot Road double-decker: 3.75 km between Alapakkam and Alwarthirunagar, Corridor 4 on the lower deck",
+      "railanalysis-skip": "Rail Analysis India — trial run Porur Junction–Vadapalani; services skip Alapakkam, Karambakkam, Valasaravakkam, Alwarthirunagar, Virugambakkam South, Saligramam"
+    }
+  },
+  "stations": [
+    {
+      "id": "poonamallee-bypass",
+      "name": "Poonamallee Bypass",
+      "nameTa": "பூந்தமல்லி புறவழிச்சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "terminus": true,
+      "coordinates": {
+        "lat": 13.048,
+        "lon": 80.0818,
+        "quality": "station",
+        "source": "wiki-stations"
+      },
+      "notes": "Western terminus of Line 4, beside the Phase II Poonamallee Depot."
+    },
+    {
+      "id": "poonamallee",
+      "name": "Poonamallee",
+      "nameTa": "பூந்தமல்லி",
+      "nameTaVerified": false,
+      "altNames": [
+        "Poonamallee Bus Stand"
+      ],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.05045,
+        "lon": 80.09317,
+        "quality": "bus-stop",
+        "source": "mtc-gtfs"
+      },
+      "notes": "Referred to as Poonamallee Bus Stand in CMRL's fare announcement.",
+      "osmName": "Poonamallee Bus Stand"
+    },
+    {
+      "id": "mullaithottam",
+      "name": "Mullaithottam",
+      "nameTa": "முல்லைத்தோட்டம்",
+      "nameTaVerified": false,
+      "altNames": [
+        "Poonamallee Government Hospital"
+      ],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.04978,
+        "lon": 80.10218,
+        "quality": "station",
+        "source": "wiki-stations"
+      },
+      "notes": "On Trunk Road, Poonamallee.",
+      "osmName": "Poonamallee Government Hospital"
+    },
+    {
+      "id": "karayanchavadi",
+      "name": "Karayanchavadi",
+      "nameTa": "கரையான்சாவடி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.04646,
+        "lon": 80.11113,
+        "quality": "bus-stop",
+        "source": "mtc-gtfs"
+      },
+      "notes": ""
+    },
+    {
+      "id": "kumananchavadi",
+      "name": "Kumananchavadi",
+      "nameTa": "குமணன்சாவடி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.044968,
+        "lon": 80.116017,
+        "quality": "locality",
+        "source": "wiki-localities"
+      },
+      "notes": ""
+    },
+    {
+      "id": "kattupakkam",
+      "name": "Kattupakkam",
+      "nameTa": "காட்டுப்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.0414,
+        "lon": 80.1267,
+        "quality": "locality",
+        "source": "wiki-localities"
+      },
+      "notes": "Kattupakkam lies on Mount–Poonamallee Road."
+    },
+    {
+      "id": "iyyappanthangal",
+      "name": "Iyyappanthangal",
+      "nameTa": "ஐயப்பன்தாங்கல்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.03806,
+        "lon": 80.135,
+        "quality": "locality",
+        "source": "wiki-localities"
+      },
+      "notes": "",
+      "osmName": "Iyappanthangal"
+    },
+    {
+      "id": "thelliyaragaram",
+      "name": "Thelliyaragaram",
+      "nameTa": "தெள்ளியரகரம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.03691,
+        "lon": 80.14173,
+        "quality": "station",
+        "source": "wiki-stations"
+      },
+      "notes": ""
+    },
+    {
+      "id": "porur-bypass",
+      "name": "Porur Bypass",
+      "nameTa": "போரூர் புறவழிச்சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.03628,
+        "lon": 80.15017,
+        "quality": "station",
+        "source": "wiki-stations"
+      },
+      "notes": ""
+    },
+    {
+      "id": "porur-junction",
+      "name": "Porur Junction",
+      "nameTa": "போரூர் சந்திப்பு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": {
+        "lat": 13.03587,
+        "lon": 80.15683,
+        "quality": "station",
+        "source": "wiki-stations"
+      },
+      "notes": "End of the section CMRS cleared for regular 10-station operation; beyond here trains run along Arcot Road to Vadapalani."
+    },
+    {
+      "id": "alapakkam",
+      "name": "Alapakkam",
+      "nameTa": "ஆலப்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated-double-decker",
+      "service": "pass",
+      "coordinates": null,
+      "placement": {
+        "between": [
+          "porur-junction",
+          "vadapalani"
+        ],
+        "fraction": 0.08,
+        "quality": "interpolated"
+      },
+      "notes": "Double-decker station (Corridor 4 lower deck, Corridor 5 upper deck). Trains pass without stopping at opening."
+    },
+    {
+      "id": "karambakkam",
+      "name": "Karambakkam",
+      "nameTa": "காரம்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated-double-decker",
+      "service": "pass",
+      "coordinates": null,
+      "placement": {
+        "between": [
+          "porur-junction",
+          "vadapalani"
+        ],
+        "fraction": 0.282,
+        "quality": "interpolated"
+      },
+      "notes": "Double-decker station. Trains pass without stopping at opening."
+    },
+    {
+      "id": "valasaravakkam",
+      "name": "Valasaravakkam",
+      "nameTa": "வளசரவாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated-double-decker",
+      "service": "pass",
+      "coordinates": null,
+      "placement": {
+        "between": [
+          "porur-junction",
+          "vadapalani"
+        ],
+        "fraction": 0.483,
+        "quality": "interpolated"
+      },
+      "notes": "Double-decker station. Trains pass without stopping at opening."
+    },
+    {
+      "id": "alwarthirunagar",
+      "name": "Alwarthirunagar",
+      "nameTa": "ஆழ்வார்திருநகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated-double-decker",
+      "service": "pass",
+      "coordinates": null,
+      "placement": {
+        "between": [
+          "porur-junction",
+          "vadapalani"
+        ],
+        "fraction": 0.685,
+        "quality": "interpolated"
+      },
+      "notes": "Eastern end of the 3.75 km double-decker stretch. Trains pass without stopping at opening."
+    },
+    {
+      "id": "avichi-school",
+      "name": "Avichi School",
+      "nameTa": null,
+      "nameTaVerified": false,
+      "altNames": [
+        "Virugambakkam South"
+      ],
+      "type": "elevated",
+      "service": "pass",
+      "coordinates": null,
+      "placement": {
+        "between": [
+          "porur-junction",
+          "vadapalani"
+        ],
+        "fraction": 0.9,
+        "quality": "interpolated"
+      },
+      "notes": "Called Avichi School in the opening reports; Wikipedia and OpenStreetMap list it as Virugambakkam South, between Alwarthirunagar and Saligramam. Trains pass without stopping at opening.",
+      "osmName": "Virugambakkam South"
+    },
+    {
+      "id": "saligramam",
+      "name": "Saligramam",
+      "nameTa": "சாலிகிராமம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "pass",
+      "coordinates": null,
+      "placement": {
+        "between": [
+          "porur-junction",
+          "vadapalani"
+        ],
+        "fraction": 0.8,
+        "quality": "interpolated"
+      },
+      "notes": "Reported as not ready at opening; trains pass without stopping."
+    },
+    {
+      "id": "vadapalani",
+      "name": "Vadapalani",
+      "nameTa": "வடபழனி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "terminus": true,
+      "interchange": [
+        "line-2"
+      ],
+      "coordinates": {
+        "lat": 13.0505,
+        "lon": 80.21208,
+        "quality": "station",
+        "source": "wiki-stations"
+      },
+      "notes": "Interchange with the Green Line (Line 2), open since 29 June 2015. Elevated, 4 tracks on 3 platform levels."
+    },
+    {
+      "id": "wimco-nagar-depot",
+      "name": "Wimco Nagar Depot",
+      "nameTa": "விம்கோ நகர் டிப்போ",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "wimco-nagar",
+      "name": "Wimco Nagar",
+      "nameTa": "விம்கோ நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "thiruvottriyur",
+      "name": "Thiruvottriyur",
+      "nameTa": "திருவொற்றியூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "thiruvottiyur-theradi",
+      "name": "Thiruvottiyur Theradi",
+      "nameTa": "திருவொற்றியூர் தேரடி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "kaladipet",
+      "name": "Kaladipet",
+      "nameTa": "காலடிபேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "tollgate",
+      "name": "Tollgate",
+      "nameTa": "சுங்கச்சாவடி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "new-washermanpet",
+      "name": "New Washermanpet",
+      "nameTa": "புது வண்ணாரப்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "tondiarpet",
+      "name": "Tondiarpet",
+      "nameTa": "தொண்டையார்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "sir-theagaraya-college",
+      "name": "Sir Theagaraya College",
+      "nameTa": "தியாகராயா கல்லூரி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "washermanpet",
+      "name": "Washermanpet",
+      "nameTa": "வண்ணாரப்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "mannadi",
+      "name": "Mannadi",
+      "nameTa": "மண்ணடி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "high-court",
+      "name": "High Court",
+      "nameTa": "உயர்நீதிமன்றம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "nameTa": "சென்னை மத்திய ரயில் நிலையம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Central Metro",
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "government-estate",
+      "name": "Government Estate",
+      "nameTa": "அரசினர் தோட்டம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "lic",
+      "name": "LIC",
+      "nameTa": "எல் ஐ சி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "thousand-lights",
+      "name": "Thousand Lights",
+      "nameTa": "ஆயிரம் விளக்கு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "ag-dms",
+      "name": "AG-DMS",
+      "nameTa": "ஏ ஜி டி.எம்.எஸ்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "teynampet",
+      "name": "Teynampet",
+      "nameTa": "தேனாம்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "nandanam",
+      "name": "Nandanam",
+      "nameTa": "நந்தனம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "saidapet",
+      "name": "Saidapet",
+      "nameTa": "சைதாப்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "little-mount",
+      "name": "Little Mount",
+      "nameTa": "சின்னமலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "guindy",
+      "name": "Guindy",
+      "nameTa": "கிண்டி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "alandur",
+      "name": "Alandur",
+      "nameTa": "ஆலந்தூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "nanganallur-road",
+      "name": "Nanganallur Road",
+      "nameTa": "நங்கநல்லூர் சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "meenambakkam",
+      "name": "Meenambakkam",
+      "nameTa": "மீனம்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "chennai-international-airport",
+      "name": "Chennai International Airport",
+      "nameTa": "சென்னை விமான நிலையம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 1)."
+    },
+    {
+      "id": "egmore",
+      "name": "Egmore",
+      "nameTa": "எழும்பூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "nehru-park",
+      "name": "Nehru Park",
+      "nameTa": "நேரு பூங்கா",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "kilpauk",
+      "name": "Kilpauk",
+      "nameTa": "கீழ்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "pachaiyappa-s-college",
+      "name": "Pachaiyappa's College",
+      "nameTa": "பச்சையப்பன் கல்லூரி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "shenoy-nagar",
+      "name": "Shenoy Nagar",
+      "nameTa": "செனாய் நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 2). Tamil name from OpenStreetMap (2026-10-11), not verified."
+    },
+    {
+      "id": "anna-nagar-east",
+      "name": "Anna Nagar East",
+      "nameTa": "அண்ணா நகர் கிழக்கு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "anna-nagar-tower",
+      "name": "Anna Nagar Tower",
+      "nameTa": "அண்ணா நகர் டவர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "thirumangalam",
+      "name": "Thirumangalam",
+      "nameTa": "திருமங்கலம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "koyambedu",
+      "name": "Koyambedu",
+      "nameTa": "கோயம்பேடு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "cmbt",
+      "name": "CMBT",
+      "nameTa": "சென்னை புறநகர் பேருந்து நிலையம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "arumbakkam",
+      "name": "Arumbakkam",
+      "nameTa": "அரும்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "ashok-nagar",
+      "name": "Ashok Nagar",
+      "nameTa": "அசோக் நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "ekkattuthangal",
+      "name": "Ekkattuthangal",
+      "nameTa": "ஈக்காட்டுத்தாங்கல்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "st-thomas-mount",
+      "name": "St. Thomas Mount",
+      "nameTa": "பரங்கிமலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "St. Thomas Mount Metro",
+      "notes": "Position and Tamil name from OpenStreetMap (Line 2)."
+    },
+    {
+      "id": "kodambakkam-powerhouse",
+      "name": "Kodambakkam Powerhouse",
+      "nameTa": "கோடம்பாக்கம் பவர்ஹவுஸ்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 4)."
+    },
+    {
+      "id": "kodambakkam",
+      "name": "Kodambakkam",
+      "nameTa": "கோடம்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Kodambakkam Metro",
+      "notes": "Position from OpenStreetMap (Line 4). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "panagal-park",
+      "name": "Panagal Park",
+      "nameTa": "பனகல் பூங்கா",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Panagal Park Metro",
+      "notes": "Position from OpenStreetMap (Line 4). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "boat-club",
+      "name": "Boat Club",
+      "nameTa": "படகு குழாம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Boat Club Metro",
+      "notes": "Position from OpenStreetMap (Line 4). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "bharathidasan-road",
+      "name": "Bharathidasan Road",
+      "nameTa": "பாரதிதாசன் சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Bharathidasan Road Metro",
+      "notes": "Position from OpenStreetMap (Line 4). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "alwarpet",
+      "name": "Alwarpet",
+      "nameTa": "ஆழ்வார்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Alwarpet Metro",
+      "notes": "Position from OpenStreetMap (Line 4). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "thirumayilai",
+      "name": "Thirumayilai",
+      "nameTa": "திருமயிலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Thirumayilai Metro",
+      "notes": "Position and Tamil name from OpenStreetMap (Line 4)."
+    },
+    {
+      "id": "kutchery-road",
+      "name": "Kutchery Road",
+      "nameTa": "கச்சேரி சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Kutchery Road Metro",
+      "notes": "Position from OpenStreetMap (Line 4). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "lighthouse",
+      "name": "Lighthouse",
+      "nameTa": "கலங்கரைவிளக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Lighthouse Metro",
+      "notes": "Position from OpenStreetMap (Line 4). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "madhavaram-milk-colony",
+      "name": "Madhavaram Milk Colony",
+      "nameTa": "மாதவரம் பால் பண்ணை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "madhavaram-depot",
+      "name": "Madhavaram Depot",
+      "nameTa": "மாதவரம் பணிமனை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "assissi-nagar",
+      "name": "Assissi Nagar",
+      "nameTa": "அசிசி நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "manjampakkam",
+      "name": "Manjampakkam",
+      "nameTa": "மஞ்சம்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "velmurugan-nagar",
+      "name": "Velmurugan Nagar",
+      "nameTa": "வேல்முருகன் நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "madhavaram-bus-terminal",
+      "name": "Madhavaram Bus Terminal",
+      "nameTa": "மாதவரம் பேருந்து நிலையம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Madhavaram Bus Terminal Metro",
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "shastri-nagar",
+      "name": "Shastri Nagar",
+      "nameTa": "சாஸ்திரி நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "retteri-junction",
+      "name": "Retteri Junction",
+      "nameTa": "ரெட்டேரி சந்திப்பு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Retteri Junction Metro",
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "kolathur",
+      "name": "Kolathur",
+      "nameTa": "கொளத்தூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "srinivasa-nagar",
+      "name": "Srinivasa Nagar",
+      "nameTa": "சீனிவாச நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "villivakkam",
+      "name": "Villivakkam",
+      "nameTa": "வில்லிவாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Villivakkam Metro",
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "koyambedu-market",
+      "name": "Koyambedu Market",
+      "nameTa": "கோயம்பேடு சந்தை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 5)."
+    },
+    {
+      "id": "natesan-nagar",
+      "name": "Natesan Nagar",
+      "nameTa": "நடேசன் நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 5)."
+    },
+    {
+      "id": "virugambakkam-north",
+      "name": "Virugambakkam North",
+      "nameTa": "விருகம்பாக்கம் வடக்கு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position and Tamil name from OpenStreetMap (Line 5)."
+    },
+    {
+      "id": "mugalivakkam",
+      "name": "Mugalivakkam",
+      "nameTa": "முகலிவாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "ramapuram",
+      "name": "Ramapuram",
+      "nameTa": "ராமாபுரம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "manapakkam",
+      "name": "Manapakkam",
+      "nameTa": "மணப்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "chennai-trade-centre",
+      "name": "Chennai Trade Centre",
+      "nameTa": "சென்னை வர்த்தக மையம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "butt-road",
+      "name": "Butt Road",
+      "nameTa": "பட் சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Position from OpenStreetMap (Line 5). Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "sholinganallur",
+      "name": "Sholinganallur",
+      "nameTa": "சோழிங்கநல்லூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Sholinganallur Metro",
+      "notes": "Position from OpenStreetMap (Line 5). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "villivakkam-bus-terminus",
+      "name": "Villivakkam Bus Terminus",
+      "nameTa": "வில்லிவாக்கம் பேருந்து நிலையம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "villivakkam-cth-road",
+      "name": "Villivakkam CTH Road",
+      "nameTa": null,
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction."
+    },
+    {
+      "id": "anna-nagar-west",
+      "name": "Anna Nagar West",
+      "nameTa": "அண்ணா நகர் மேற்கு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "anna-nagar-kv",
+      "name": "Anna Nagar KV",
+      "nameTa": "அண்ணா நகர் கே.வி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "adambakkam",
+      "name": "Adambakkam",
+      "nameTa": "ஆதம்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "vanuvampet",
+      "name": "Vanuvampet",
+      "nameTa": "வானுவம்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "ullagaram",
+      "name": "Ullagaram",
+      "nameTa": "உள்ளகரம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "madipakkam",
+      "name": "Madipakkam",
+      "nameTa": "மடிப்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "kilkattalai",
+      "name": "Kilkattalai",
+      "nameTa": "கீழ்க்கட்டளை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "echangadu",
+      "name": "Echangadu",
+      "nameTa": "ஈச்சங்காடு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "kovilambakkam",
+      "name": "Kovilambakkam",
+      "nameTa": "கோவிலம்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "vellakkal",
+      "name": "Vellakkal",
+      "nameTa": "வெள்ளைக்கல்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "medavakkam-i",
+      "name": "Medavakkam I",
+      "nameTa": "மேடவாக்கம் I",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "medavakkam-ii",
+      "name": "Medavakkam II",
+      "nameTa": "மேடவாக்கம் II",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "perumbakkam",
+      "name": "Perumbakkam",
+      "nameTa": "பெரும்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "classical-tamil-institute",
+      "name": "Classical Tamil Institute",
+      "nameTa": "செம்மொழித் தமிழாய்வு நிறுவனம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "elcot",
+      "name": "Elcot",
+      "nameTa": "எல்காட்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Red Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "madhavaram-high-road",
+      "name": "Madhavaram High Road",
+      "nameTa": "மாதவரம் பிரதான சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "moolakadai",
+      "name": "Moolakadai",
+      "nameTa": "மூலக்கடை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "sembiyum",
+      "name": "Sembiyum",
+      "nameTa": "செம்பியம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "perambur-market",
+      "name": "Perambur Market",
+      "nameTa": "பெரம்பூர் மார்க்கெட்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "perambur",
+      "name": "Perambur",
+      "nameTa": "பெரம்பூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "ayanavaram",
+      "name": "Ayanavaram",
+      "nameTa": "அயனாவரம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "otteri",
+      "name": "Otteri",
+      "nameTa": "ஓட்டேரி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "pattalam",
+      "name": "Pattalam",
+      "nameTa": "பட்டாளம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "perambur-barracks-road",
+      "name": "Perambur Barracks Road",
+      "nameTa": "பெரம்பூர் பராக்ஸ் சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "purasaiwakkam",
+      "name": "Purasaiwakkam",
+      "nameTa": "புரசைவாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "kellys",
+      "name": "Kellys",
+      "nameTa": "கெல்லிஸ்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "chetpet",
+      "name": "Chetpet",
+      "nameTa": "சேத்துப்பட்டு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "sterling-road",
+      "name": "Sterling Road",
+      "nameTa": "ஸ்டெர்லிங் ரோடு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "nungambakkam",
+      "name": "Nungambakkam",
+      "nameTa": "நுங்கம்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "anna-flyover",
+      "name": "Anna Flyover",
+      "nameTa": "அண்ணா மேம்பாலம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "royapettah",
+      "name": "Royapettah",
+      "nameTa": "ராயப்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "osmName": "Royapettah Metro",
+      "notes": "Position and Tamil name from OpenStreetMap (Line 3)."
+    },
+    {
+      "id": "dr-radhakrishnan-salai",
+      "name": "Dr. Radhakrishnan Salai",
+      "nameTa": "ராதாகிருஷ்ணன் சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "mandaiveli",
+      "name": "Mandaiveli",
+      "nameTa": "மந்தைவெளி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "greenways-road",
+      "name": "Greenways Road",
+      "nameTa": "பசுமைவழிச் சாலை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "adyar-junction",
+      "name": "Adyar Junction",
+      "nameTa": "அடையாறு சந்திப்பு",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "adyar-depot",
+      "name": "Adyar Depot",
+      "nameTa": null,
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction."
+    },
+    {
+      "id": "indira-nagar",
+      "name": "Indira Nagar",
+      "nameTa": "இந்திரா நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "thiruvanmiyur",
+      "name": "Thiruvanmiyur",
+      "nameTa": "திருவான்மியூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "underground",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "tharamani",
+      "name": "Tharamani",
+      "nameTa": "தரமணி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "nehru-nagar",
+      "name": "Nehru Nagar",
+      "nameTa": "நேரு நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "kandanchavadi",
+      "name": "Kandanchavadi",
+      "nameTa": "கந்தன்சாவடி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "perungudi",
+      "name": "Perungudi",
+      "nameTa": "பெருங்குடி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "thoraipakkam",
+      "name": "Thoraipakkam",
+      "nameTa": "துறைப்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "mettukuppam",
+      "name": "Mettukuppam",
+      "nameTa": "மேட்டுக்குப்பம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "ptc-colony",
+      "name": "PTC Colony",
+      "nameTa": "பி.டி.சி. காலனி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name locality on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "okkiyampet",
+      "name": "Okkiyampet",
+      "nameTa": "ஒக்கியம்பேட்டை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "karapakkam",
+      "name": "Karapakkam",
+      "nameTa": "காரப்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "okkiyam-thoraipakkam",
+      "name": "Okkiyam Thoraipakkam",
+      "nameTa": "ஒக்கியம் துரைப்பாக்கம்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "sholinganallur-lake-i",
+      "name": "Sholinganallur Lake I",
+      "nameTa": "சோழிங்கநல்லூர் ஏரி I",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "sholinganallur-lake-ii",
+      "name": "Sholinganallur Lake II",
+      "nameTa": "சோழிங்கநல்லூர் ஏரி II",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "semmancheri-depot",
+      "name": "Semmancheri Depot",
+      "nameTa": "செம்மஞ்சேரி பணிமனை",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "semmancheri-i",
+      "name": "Semmancheri I",
+      "nameTa": "செம்மஞ்சேரி I",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "semmancheri-ii",
+      "name": "Semmancheri II",
+      "nameTa": "செம்மஞ்சேரி II",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "gandhi-nagar",
+      "name": "Gandhi Nagar",
+      "nameTa": "காந்தி நகர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "navallur",
+      "name": "Navallur",
+      "nameTa": "நாவலூர்",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Tamil name from OpenStreetMap, not verified. Under construction."
+    },
+    {
+      "id": "siruseri",
+      "name": "Siruseri",
+      "nameTa": "சிறுசேரி",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "sipcot-1",
+      "name": "SIPCOT 1",
+      "nameTa": "சிப்காட் 1",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position at the same-name bus stop on the track (approximate). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    },
+    {
+      "id": "sipcot-2",
+      "name": "SIPCOT 2",
+      "nameTa": "சிப்காட் 2",
+      "nameTaVerified": false,
+      "altNames": [],
+      "type": "elevated",
+      "service": "stop",
+      "coordinates": null,
+      "notes": "Not yet mapped in OpenStreetMap: name and order from Wikipedia — Purple Line (Chennai Metro), station list (2026-10-05); position spaced evenly between its neighbours on the real track (indicative). Under construction. Tamil name from Tamil Wikipedia (Chennai Metro Phase II route diagram, 2026-10-11), not verified."
+    }
+  ]
+}
